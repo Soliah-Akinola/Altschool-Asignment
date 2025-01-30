@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AltSchool Africa Signup</title>
+    <link rel="stylesheet" href="./forms.css">
+</head>
+<body>
+    <div class="container">
+        <p class = "sigin-topright">Already an AltScholar? <a href="#">Sign In!</a></p>
+        <div class="left-side">
+            <img src="IMAGE.jpg" alt="AltSchool Africa Image"> 
+            <h1>Learn highly sought after skills without hassle.</h1>
+            <p><strong>2025 &copy; AltSchool Africa. All rights reserved.</strong> </p>
+        </div>
+        <div class="right-side">
+            <div class="form-header">
+                <h2>Signup</h2>
+                <p class="steps">Take the next steps to apply at AltSchool Africa</p>
+            </div>
+            <form action="#" method="post"> 
+                <div class="input-group">
+                    <label>First Name</label>
+                    <input type="text" id="firstName" placeholder="First Name" required>
+                    <label>Last Name</label>
+                    <input type="text" id="lastName" placeholder="Last Name" required>
+                </div>
+                <label>Email</label>
+                <input type="email" id="email" placeholder="Email" required>
+                <label>Gender</label>
+                <select id="gender" required>
+                    <option value="" disabled selected>Select gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+                <label>Date Of Birth</label>
+                <input type="date" id="dob" required>
+                <label>Phone Number</label>
+                <input type="tel" id="phone" placeholder="Phone Number" required>
+                <div class="input-group">
+                    <label>Country</label>
+                    <input type="text" id="country" placeholder="Country of Residence" required>
+                    <label>State</label>
+                    <input type="text" id="state" placeholder="State of Residence" required>
+                </div>
+                <label>Password</label>
+                <input type="password" id="password" placeholder="Password" required>
+                <label>Confirm Password</label>
+                <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+                <label>How did you hear about us?</label>
+                <textarea id="hearAboutUs" placeholder="Optional: Let us know how you found us"></textarea>
+                <button type="submit">Signup →</button>
+                <p class="terms">By clicking continue, I agree to <a href="#"> Terms of use</a> and acknowledge that I have read the <a href="#" >Policy</a>.</p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
