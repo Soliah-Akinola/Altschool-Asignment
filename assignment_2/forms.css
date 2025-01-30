@@ -10,7 +10,7 @@ body {
 
 .container {
     display: flex;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); Example shadow
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .left-side {
